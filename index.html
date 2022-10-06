@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>TweetNow</title>
-</head>
-<body>
-    <h1>Hello World</h1>
+  </head>
+  <body>
+    <header>
+      <h1>TweetNow</h1>
+    </header>
+    <main>
+      <div class="tweet-input-area">
+        <img src="image/twitter-logo.png" class="profile-pic" />
+        <textarea id="tweet-input" placeholder="What's on your mind?"></textarea>
+      </div>
+      <button id="tweet-btn">Tweet</button>
+      <div class="feed" id="feed"></div>
+    </main>
     <script src="main.js" type="module"></script>
-</body>
+  </body>
 </html>
